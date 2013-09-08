@@ -1,0 +1,94 @@
+<!--========================================================================
+#   FileName: drag.html
+#     Author: Mathison
+#      Email: vividlee2010@gmail.com
+#   HomePage: http://www.mathisonlee.com
+# LastChange: 2012-05-19 15:52:41
+========================================================================-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+
+ <body>
+  <script type="text/javascript">
+  function drag(elementToDrag,event){
+    var startX=event.clientX,startY=event.clientY;
+    var origX=elementToDrag.offsetLeft,origY=elementToDrag.offsetTop;
+    var deltaX=startX-origX,deltaY=startY-origY;
+
+    if(document.addEventListener){
+       document.addEventListener("mousemove",moveHandler,true); 
+    document.addEventListener("mouseup",upHandler,true);
+ }
+ else{
+    elementToDrag.setCapture();
+    elementToDrag.attachEvent("onmousemove",moveHandler);
+    elementToDrag.attachEvent("onmouseup",upHandler);
+    elementToDrag.attachEvent("onlosecapture",upHandler);
+ }
+
+ if(event.stopPropagation) event.stopPropagation();
+ else event.cancelBubble=true;
+ 
+ if(event.preventDefault) event.preventDefault();
+ else event.returnValue=false;
+
+ function moveHandler(e){
+   if(!e) e=window.event;
+   elementToDrag.style.left=(e.clientX-deltaX)+"px";
+   elementToDrag.style.top=(e.clientY-deltaY)+"px";
+   elementToDrag.style.zIndex="10";
+  
+   elementToDrag.getElementsByTagName("p")[0].innerHTML="clientX:"+e.clientX+"</br>"+"clientY:"+e.clientY+"</br>"+ ;
+
+
+   if(e.stopPropagation) e.stopPropagation();
+   else e.cancelBubble = true;
+ }
+
+ function upHandler(e){
+   if(!e) e=window.event;
+      elementToDrag.style.zIndex="1";
+   if(document.removeEventListener){
+      document.removeEventListener("mouseup",upHandler,true);
+   document.removeEventListener("mousemove",moveHandler,true);
+   }
+   else{
+      elementToDrag.detachEvent("onlosecapture",upHandler);
+   elementToDrag.detachEvent("onmouseup",upHandler);
+   elementToDrag.detachEvent("onmousemove",moveHandler);
+   elementToDrag.releaseCapture();
+   }
+
+   if(e.stopPropagation) e.stopPropagation();
+   else e.cancelBubble=true;
+ }
+  }
+  </script>
+
+  <div style="position:absolute;left:100px;top:100px;width:250px;background-color:#789;border:1px solid #f00">
+    <div style="background:#ccc;border-bottom:dotted black;padding:3px;font-weight:bold" onmousedown="drag(this.parentNode,event)">Drag Me1</div>
+ <p>
+  <a href="http://www.360buy.com/products/670-671-6864.html"><b>·</b>超极本</a>
+<a href="http://www.360buy.com/products/652-654-831.html"><b>·</b>数码相机</a>
+<a href="http://www.360buy.com/products/670-671-672.html"><b>·</b>笔记本</a>
+<a href="http://www.360buy.com/products/652-654-832.html"><b>·</b>单反相机</a>
+<a href="http://www.360buy.com/products/670-671-2694.html"><b>·</b>平板电脑</a>
+<a href="http://www.360buy.com/products/652-828-837.html"><b>·</b>MP3/MP4</a>
+<a href="http://www.360buy.com/products/670-716-000.html"><b>·</b>打印机</a>
+<a href="http://www.360buy.com/products/652-828-842.html"><b>·</b>耳机</a>
+<a href="http://www.360buy.com/products/670-686-693.html"><b>·</b>移动硬盘</a>
+<a href="http://www.360buy.com/products/652-829-000.html"><b>·</b>数码配件</a>
+<a href="http://www.360buy.com/products/670-699-700.html"><b>·</b>路由器</a>
+ </p>
+  </div>
+
+  </div>
+ </body>
+</html>

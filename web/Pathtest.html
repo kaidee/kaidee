@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+	<title>Path Test</title>
+	<canvas width="1200" height="700" style="border: 1px dotted black;">
+
+		alternative content for browsers without canvas support
+	</canvas>
+
+	<script type="text/javascript">
+		var canvas = document.querySelector("canvas")
+		var context = canvas.getContext('2d')
+
+		context.beginPath()
+		context.moveTo(300,700)
+		context.lineTo(600,100)
+		context.lineTo(900,700)
+		context.moveTo(350,400)
+		context.lineTo(850,400)
+		context.stroke()
+	</script>

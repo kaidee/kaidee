@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<title>linGrad Test</title>
+	<canvas width="1200" height="700" style="border: 1px dotted black;">
+
+		alternative content for browsers without canvas support
+	</canvas>
+
+	<script type="text/javascript">
+		var canvas = document.querySelector("canvas")
+		var context = canvas.getContext('2d')
+		var linGrad = context.createLinearGradient(0,450,1000,450)
+		linGrad.addColorStop(0.0,'red')
+		linGrad.addColorStop(0.5,'yellow')
+		linGrad.addColorStop(0.7,'orange')
+		linGrad.addColorStop(1.0,'purple')
+
+		context.fillStyle = linGrad
+		context.fillRect(0,450,1000,450)
+
+		var radGrad = context.createRadialGradient(260,120,40,200,200,200)
+		radGrad.addColorStop(0.0,'red')
+		radGrad.addColorStop(0.9,'purple')
+		// radGrad.addColorStop(1.0,'yellow')
+		radGrad.addColorStop(1.0,'rgba(0,0,0,0)')
+		context.fillStyle = radGrad		
+		context.fillRect(0,0,400,400)
+	</script>

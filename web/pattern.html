@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+	<title>Pattern Test</title>
+	<canvas width="1200" height="700" style="border: 1px dotted black;">
+
+		alternative content for browsers without canvas support
+	</canvas>
+
+	<script type="text/javascript">
+		var cvs = document.createElement("CANVAS")
+		// var context = canvas.getContext('2d')
+		cvs.width = 20
+		cvs.height = 20
+		var ctx = cvs.getContext('2d')
+		ctx.fillStyle = 'lime'
+		ctx.fillRect(0,0,10,10)
+		ctx.fillRect(10,10,10,10)
+		ctx.fillStyle = 'green'
+		ctx.fillRect(10,0,10,10)
+		ctx.fillRect(0,10,10,10)
+
+		context.fillStyle = context.createPattern(cvs,'repeat')
+		context.fillRect(0,0,220,220)
+	</script>

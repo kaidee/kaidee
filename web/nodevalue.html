@@ -1,0 +1,14 @@
+<html><head><title>JavaScript举例</title>
+<script type="text/javascript">
+function displayOnClick(){
+	var result = document.getElementById("result").childNodes[0]
+	result.nodeValue = "已经点击了"
+
+}
+</script>
+</head>
+<body>
+	<a  onclick="displayOnClick()">请点击</a><br>
+	<div id="result">显示变化</div>
+</body>
+</html>

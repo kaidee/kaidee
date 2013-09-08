@@ -1,0 +1,29 @@
+Before I begin, I need to thank a few people. I’m talking to you, gen-
+tlemen: Joe Armstrong, Satoshi Asakawa, Paul Barry, Emmanuel Ber-
+nard, Roberto Bettazzoni, Ola Bini, Piergiuliano Bossi, Simone Busoli,
+Andrea Cisternino, Davide D’Alto, Mauro Di Nuzzo, Marco Di Timo-
+teo, Mauricio Fernandez, Jay Fields, Michele Finelli, Neal Ford, Flo-
+rian Frank, Sanne Grinovero, Federico Gobbo, Florian Groß, Sebastian
+Hennebrüder, Doug Hudson, Jurek Husakowski, Lyle Johnson, Luca
+Marchetti, MenTaLguY, Carlo Pecchia, Andrea Provaglio, Mike Roberts,
+Martin Rodgers, Jeremy Sydik, Andrea Tomasini, Marco Trincardi, Ivan
+Vaghi, Giancarlo Valente, Davide Varvello, Jim Weirich, and the dozens
+of readers who reported problems and errata while this book was in
+beta. Whether you provided reviews, quotes, fixes, opinions, or moral
+support, there’s at least one line in this book that changed for the bet-
+ter because of you. Did I say one line? For some of you, make that “a
+few chapters.” In particular, Ola, Satoshi, and Jurek deserve a special
+place on this page and my enduring gratitude.
+Thanks to the staff at the Pragmatic Bookshelf: Janet Furlow, Seth
+Maislin, Steve Peter, Susannah Davidson Pfalzer, and Kim Wimpsett.
+Dave and Andy, thank you for believing in this project when times got
+rough. Jill, thank you for making my awkward prose look so effortless.
+Our crunch week in Venice was a lot of hard work, but it was definitely
+worth it. And speaking of Venice: thank you, Lucio, for being such a
+dear old friend.
+Mom and Dad, thank you for your support, for your love, and for never
+asking why I was taking so long to finish this book.
+Most authors’ closing thanks go to their partners, and now I know why.
+When you’re about to finish a book, you turn back to the day when
+you started writing, and it feels so far away. I remember writing over
+lunch breaks, nights, and weekends, locked for days or weeks inside

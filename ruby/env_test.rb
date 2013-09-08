@@ -1,0 +1,1 @@
+ENV.each{|e| puts e.join(':')}

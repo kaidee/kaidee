@@ -1,0 +1,152 @@
+album=1.0
+comment=
+name=/testmp3/10cm-银河系的爱情咖啡.mp3
+title=
+artist=10cm
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/2pm-i can‘t.mp3
+title=
+artist=2PM
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/adele-skyfall (电影《007》主题曲).mp3
+title=
+artist=Adele
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ashily-爱向着我来的那天.mp3
+title=
+artist=Ashily
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/beast-做梦.mp3
+title=
+artist=Beast
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/brown eyed girls-仲夏夜之梦.mp3
+title=
+artist=Brown Eyed Girls
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/busker busker-如果你真的爱我.mp3
+title=
+artist=Busker Busker
+year=
+genre=255
+
+album=Animal disc1
+comment=
+name=/testmp3/ke$ha-blah blah blah.mp3
+title=Blah Blah Blah
+artist=Ke$ha
+year=
+genre=255
+
+album=Cannibal
+comment=
+name=/testmp3/ke$ha-blow.mp3
+title=Blow
+artist=Ke$Ha
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ke$ha-booty call.mp3
+title=Booty Call
+artist=Ke$ha
+year=
+genre=255
+
+album=Cannibal
+comment=
+name=/testmp3/ke$ha-c u next tuesday.mp3
+title=C U Next Tuesday
+artist=Ke$Ha
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ke$ha-dolla.mp3
+title=Dolla
+artist=Ke$ha
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ke$ha-fk him he's a dj.mp3
+title=Fk Him He's A DJ
+artist=Ke$ha
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ke$ha-n-n-n-neva baby.mp3
+title=N-N-N-Neva Baby
+artist=Ke$ha
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ke$ha-run devil run.mp3
+title=Run Devil Run
+artist=Ke$ha
+year=
+genre=255
+
+album=Animal disc1
+comment=
+name=/testmp3/ke$ha-take it off.mp3
+title=Take It Off
+artist=Ke$ha
+year=
+genre=255
+
+album=
+comment=
+name=/testmp3/ke$ha-tik tok.mp3
+title=TiK ToK
+artist=Ke$ha
+year=
+genre=255
+
+album=We R Who We R 2011
+comment=
+name=/testmp3/ke$ha-we r who we r.mp3
+title=We R Who We R
+artist=Ke$ha
+year=
+genre=255
+
+album=Animal disc1
+comment=
+name=/testmp3/ke$ha-your love is my drug.mp3
+title=Your Love Is My Drug
+artist=Ke$ha
+year=
+genre=255
+

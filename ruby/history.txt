@@ -1,0 +1,253 @@
+    1  cd /etc/apt/
+    2  ll
+    3  sudo gedit sources.list
+    4  sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+    5  ll
+    6  sudo gedit sources.list
+    7  cd /etc/apt/
+    8  ll
+    9  cp sources.list.backup sources.list
+   10  sudo cp sources.list.backup sources.list
+   11  sudo gedit sources.list
+   12  sudo apt-get update 
+   13  sudo rmmod psmouse 
+   14  sudo apt-get update 
+   15  sudo rm /var/lib/apt/lists/lock
+   16  sudo apt-get update 
+   17  cd boot
+   18  cd /boot
+   19  ll
+   20  cd grub/
+   21  ll
+   22  sudo gedit grub.cfg 
+   23  history
+   24  cd /boot/grub/
+   25  sudo gedit grub.cfg
+   26  sudo rmmod psmouse 
+   27  exit
+   28  curl -L get.rvm.io | bash -s stable
+   29  sudo apt-get install git-core
+   30  git config --global user.name "Mathison"
+   31  git config --global user.email vividlee2010@gmail.com
+   32  bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-in
+   33  bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+   34  gedit ~/.bashrc
+   35  source ~/.bashrc
+   36  type rvm | head -1
+   37  sudo apt-get install build-essential openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
+   38  rvm install 1.9.3
+   39  rvm use 1.9.3
+   40  ruby -v
+   41  gem install rails
+   42  gem sources --remove http://rubygems.org/
+   43  gem sources -a http://ruby.taobao.org/
+   44  gem sources -l
+   45  gem install rails
+   46  rails -v
+   47  rails new demo
+   48  cd demo
+   49  rails s
+   50  sudo apt-get install nodejs
+   51  rails s
+   52  sudo passwd root
+   53  su root
+   54  cd
+   55  pwd
+   56  cd /etc/gnome
+   57  ll
+   58  sudo gedit defaults.list
+   59  vim defaults.list
+   60  sudo apt-get install vim
+   61  vim defaults.list
+   62  sudo vim defaults.list
+   63  sudo vim /usr/share/applications/vim.desktop
+   64  sudo apt-get install ctags vim-doc vim-scripts
+   65  sudo cp 图片/vim48x48.png /usr/share/vim/vim48x48.png
+   66  sudo gedit /usr/share/applications/Sublime_text.desktop
+   67  cp .sunpinyin/userdict /dev/shm/userdict
+   68  chmod 777 /dev/shm/userdict
+   69  sudo gedit /etc/rc.local
+   70  sudo gedit /etc/crontab
+   71  sudo gedit /etc/init.d/backup_sunpinyin
+   72  sudo chown root:root /etc/init.d/backup_sunpinyin
+   73  sudo chmod 744 /etc/init.d/backup_sunpinyin
+   74  sudo chmod +x /etc/init.d/backup_sunpinyin
+   75  sudo ln -s /etc/init.d/backup_sunpinyin /etc/rc0.d/K99backup_sunpinyin
+   76  sudo ln -s /etc/init.d/backup_sunpinyin /etc/rc6.d/K99backup_sunpinyin
+   77  sudo apt-get install wine
+   78  /usr/lib/ibus-sunpinyin/ibus-setup-sunpinyin
+   79  cd 下载
+   80  sudo cp stardict-powerword2007_pwdecmc-2.4.2 /usr/share/stardict/dic/
+   81  sudo tar -xjvf stardict-powerword2007_pwdecmc-2.4.2 -C /usr/share/stardict/dic/
+   82  sudo tar -xjvf stardict-powerword2007_pwdecmc-2.4.2.tar.bz2 -C /usr/share/stardict/dic/
+   83  cd
+   84  gem_server
+   85  gem server
+   86  sudo rmmod psmouse 
+   87  cd railscodes/
+   88  rails -v
+   89  ruby -v
+   90  gem -v
+   91  rails new demo
+   92  bundle install --local
+   93  bundle install --localfile
+   94  cd demo/
+   95  bundle install --local
+   96  ruby script/generate controller Say
+   97  rails controller Say
+   98  rails generate controller Say
+   99  cd railscodes/demo/
+  100  rails s
+  101  cd railscodes/
+  102  rails new blog
+  103  cd blog
+  104  bundle install --local
+  105  rake db:create
+  106  rails generate controller home index
+  107  rails generate scaffold Post name:string title:string content:text
+  108  rake db:migrate
+  109  rails c
+  110  cd railscodes/blog/
+  111  rails s
+  112  sudo add-apt-repository ppa：tualatrix/ppa
+  113  sudo apt-get install ubuntu-tweak
+  114  sudo apt-get install gnome-shell
+  115  sudo apt-get install gnome-panel
+  116  cd
+  117  rails -v
+  118  sudo rmm
+  119  sudo rmmod psmouse 
+  120  cd railscodes/
+  121  cd demo/
+  122  rails s
+  123  cd ..
+  124  cd blog/
+  125  rails s
+  126  cd ..
+  127  cd demo
+  128  rails s
+  129  cd
+  130  cd demo/
+  131  rails s
+  132  cd
+  133  cd railscodes/demo/
+  134  rails s
+  135  mysql -v
+  136  mysql -u
+  137  mysql -u root
+  138  history
+  139  rails s
+  140  cd railscodes/depot/
+  141  rails s
+  142  sudo rmmod psmouse 
+  143  rails new depot
+  144  cd de
+  145  cd depot/
+  146  bundle install --local
+  147  ll
+  148  mysql depot_development <db/create.sql
+  149  ruby script/generate scaffold Product Admin
+  150  ruby scripts/generate scaffold Product Admin
+  151  ruby generate scaffold Product Admin
+  152  rails generate scaffold Product Admin
+  153  sudo shutdown -now
+  154  init 0
+  155  sudo init 0
+  156  cd
+  157  cd rubycodes/
+  158  ruby test.rb 
+  159  sudo rmmod psmouse 
+  160  ruby test.rb 
+  161  sudo add-apt-repository ppa:webupd8team/sublime-text-2 
+  162  sudo apt-get update
+  163  sudo apt-get install sublime-text
+  164  clr
+  165  clear
+  166  cd rubycodes/
+  167  ruby test.rb 
+  168  sudo rmmod psmouse 
+  169  irb
+  170  sudo rmmod psmouse 
+  171  cd rubycodes/
+  172  ll
+  173  ruby analyzer.rb 
+  174  less analyzer.rb 
+  175  ruby analyzer.rb 
+  176  pwd
+  177  uname -a
+  178  who
+  179  whois
+  180  man whois
+  181  ruby shape_area.rb 
+  182  ruby test1.rb 
+  183  ruby person.rb 
+  184  irb
+  185  ruby person.rb 
+  186  rails -v
+  187  sudo rmmod psmouse 
+  188  ll
+  189  cd
+  190  cd rubycodes/
+  191  ll
+  192  ruby person.rb 
+  193  ruby nested_class_drawing.rb 
+  194  ruby number_stuff.rb 
+  195  ruby letter_stuff.rb 
+  196  ruby random_test.rb 
+  197  ruby letter_stuff.rb 
+  198  ruby number_stuff.rb 
+  199  mysql -v
+  200  sqlite3
+  201  mysql2
+  202  mysql3
+  203  mysql
+  204  su root
+  205  php -v
+  206  apache -v
+  207  apache2 -v
+  208  cd rubycodes/
+  209  ruby module_usefulfeatures.rb 
+  210  ruby test2.rb 
+  211  su root
+  212  ruby dungeon_game.rb 
+  213  irb
+  214  ruby dungeon_game.rb 
+  215  ruby test2.rb 
+  216  irb
+  217  ruby test2.rb 
+  218  ruby dungeon_game.rb 
+  219  ruby test2.rb 
+  220  cd rubycodes/
+  221  ruby test2.rb 
+  222  cd rubycodes/
+  223  ll
+  224  rdoc dungeon_game.rb 
+  225  ruby raiseerror.rb 
+  226  clr
+  227  clear
+  228  ruby test2.rb 
+  229  ruby raiseerror.rb 
+  230  sudo rmmod psmouse 
+  231  sudo vim /etc/gnome/defaults.list
+  232  ll
+  233  ll | gedit
+  234  cd rubycodes/irb
+  235  cd rubycodes/
+  236  sudo rmmod psmouse 
+  237  irb
+  238  ruby test2.rb 
+  239  irb
+  240  ruby test2.rb 
+  241  irb
+  242  cd ~
+  243  cd rubycodes/
+  244  cd ~
+  245  cd rubycodes/
+  246  cd ./~
+  247  cd ~/.
+  248  php -v
+  249  history
+  250  mysql -u root
+  251  cd rubycodes/
+  252  ruby test2.rb 
+  253  history >>history.txt
