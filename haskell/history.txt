@@ -1,0 +1,1976 @@
+    1  ls
+    2  cd Documents
+    3  cd -1/Desktop
+    4  cd 
+    5  cd Pictures
+    6  ls
+    7  cd
+    8  vi .zshrc
+    9  zsh
+   10  v .zshrc
+   11  vi .zshrc
+   12  zsh
+   13  ls
+   14  ls Downloads
+   15  cd Downloads
+   16  git 
+   17  sudo apt-get install git-flow
+   18  sudo apt-get install git-core bash-completion
+   19  sudo apt-cache search lilyterm
+   20  sudo apt-cache search lily
+   21  sudo apt-get install libvte-2.90-dev
+   22  md github
+   23  cd github
+   24  git clone git://github.com/Tetralet/LilyTerm.git
+   25  cd
+   26  v .zshrc
+   27  vi .zshrc
+   28  zsh
+   29  sudo apt-get install haskell-platform
+   30  cd Downloads
+   31  ll
+   32  tar -xzvf lua-5.1.5.tar.gz
+   33  cd lua-5.1.5
+   34  ll
+   35  make
+   36  make linux
+   37  sudo apt-get install libreadline5
+   38  \nsudo apt-get install libreadline5-dev
+   39  lua
+   40  q
+   41  bash
+   42  cd Downloads
+   43  ll
+   44  tar -zxvf cocos2d-2.0-x-2.0.3.zip
+   45  byobu
+   46  sudo apt-get install byobu
+   47  byobu
+   48  cd
+   49  v .zshrc
+   50  vi .zshrc
+   51  v .aliases.sh
+   52  vi .aliases.sh
+   53  zsh
+   54  c
+   55  e
+   56  ls
+   57  v
+   58  vi .aliases.sh
+   59  v
+   60  alias v
+   61  alias e
+   62  e
+   63  v
+   64  e
+   65  ls
+   66  md work
+   67  sudoedit /etc/hosts
+   68  make
+   69  cd HelloLua
+   70  ls
+   71  ls -R .
+   72  ls
+   73  cd ..
+   74  ls
+   75  cd HelloCpp
+   76  lsa
+   77  ls
+   78  cd proj.linux
+   79  ls
+   80  ./bin/debug/HelloCpp 
+   81  cd
+   82  cd work/cocos2d-2.0-x-2.0.3
+   83  ls
+   84  ls lib
+   85  ls lib/linux
+   86  ls lib/linux/Debug
+   87  cd lib/linux/Debug
+   88  sudo cp libcocos2d.so libcocosdenshion.so /usr/local/lib
+   89  cd -3
+   90  ls
+   91  ./bin/debug/HelloCpp
+   92  ls /usr/local/lib
+   93  ls
+   94  cd bin
+   95  ls
+   96  cd debug
+   97  ls
+   98  cp ~/work/cocos2d-2.0-x-2.0.3/lib/linux/Debug/libcocos2d.so .
+   99  ./HelloCpp
+  100  cd ../
+  101  v ~/.aliases.sh
+  102  e
+  103  exit
+  104  ./HelloCpp
+  105  ll
+  106  cd debug
+  107  ll
+  108  ./HelloCpp
+  109  exit
+  110  e
+  111  byobu
+  112  e
+  113  ls -F --color=auto
+  114  ls
+  115  e
+  116  ll
+  117  ll -a
+  118  cd work/cocos2d-2.0-x-2.0.3/samples
+  119  ls
+  120  cd HelloCpp
+  121  ls
+  122  cd proj.linux
+  123  ls
+  124  make
+  125  e
+  126  cd work/cocos2d-2.0-x-2.0.3/samples/HelloCpp
+  127  ls
+  128  cd proj.linux/bin
+  129  ls
+  130  cd debug
+  131  ls
+  132  ./HelloCpp
+  133  make
+  134  ./HelloCpp
+  135  sudo reboot
+  136  sudo sub /etc/hosts
+  137  sub
+  138  sudo gedit /etc/hosts
+  139  gedit
+  140  cd work/cocos2d-2.0-x-2.0.3
+  141  ll
+  142  \n\n./install-templates-xcode.sh -u
+  143  history
+  144  ls
+  145  cd samples/HelloCpp/proj.linux
+  146  ls
+  147  ./bin/debug/HelloCpp
+  148  cd bin/debug
+  149  ll
+  150  ./HelloCpp
+  151  byobu\n\n
+  152  cd ~/Downloads
+  153  ll
+  154  wget -c http://dl.google.com/android/ndk/android-ndk-r5-linux-x86.tar.bz2
+  155  ls
+  156  tar jxvf android-ndk-r5-linux-x86.tar.bz2
+  157  ls
+  158  cd
+  159  ll
+  160  ls
+  161  md android_NDK
+  162  ls
+  163  sudo gedit /etc/profile
+  164  cd android_NDK/android-ndk-r5
+  165  ls
+  166  cd samples
+  167  ls
+  168  cd hello-jni
+  169  ls
+  170  ndk-build
+  171  sudo gedit /etc/profile
+  172  df
+  173  u
+  174  ls
+  175  cd android-studio
+  176  ls
+  177  less Install-Linux-tar.txt
+  178  e
+  179  u
+  180  cd android_dev
+  181  ls
+  182  cd android-studio
+  183  cd bin
+  184  ls
+  185  ./android studio.sh
+  186  ./studio.sh
+  187  sudo gedit /etc/profile
+  188  ifconfig
+  189  ping 192.168.1.104
+  190  cd
+  191  scp david@192.168.1.104:a.zip .
+  192  unzip a.zip
+  193  ls
+  194  rm a.zip
+  195  md work/cocos2d-x
+  196  mv __MACOSX work/cocos2d-x
+  197  mv cocos2d-x-2.1.4 work/cocos2d-x
+  198  cd work/cocos2d-x
+  199  ls
+  200  ls ..
+  201  ls
+  202  c
+  203  ls
+  204  du -h .
+  205  c
+  206  ls
+  207  du -h __MACOSX
+  208  c
+  209  ls
+  210  cd cocos2d-x-2.1.4
+  211  ls
+  212  cd samples
+  213  ls
+  214  cd Cpp
+  215  ls
+  216  cd HelloCpp
+  217  ls
+  218  cd proj.linux
+  219  ls
+  220  make
+  221  cd ob
+  222  ls
+  223  cd obj
+  224  ls
+  225  u
+  226  ui
+  227  u
+  228  ls
+  229  ./make-all-linux-project.sh
+  230  cd samples
+  231  cd Cpp/HelloCpp/proj.linux
+  232  ls
+  233  make
+  234  ./bin/debug/HelloCpp
+  235  ./bin/release/HelloCpp
+  236  make
+  237  ./bin/release/HelloCpp
+  238  make
+  239  ./bin/release/HelloCpp
+  240  make
+  241  ./bin/release/HelloCpp
+  242  make
+  243  ./bin/release/HelloCpp
+  244  make
+  245  ./bin/release/HelloCpp
+  246  make
+  247  ./bin/release/HelloCpp
+  248  make
+  249  ./bin/release/HelloCpp
+  250  make
+  251  ./bin/release/HelloCpp
+  252  make
+  253  ./bin/release/HelloCpp
+  254  make
+  255  ./bin/release/HelloCpp
+  256  u
+  257  ll
+  258  cd Lua
+  259  ll
+  260  cd HelloLua
+  261  ls
+  262  cd proj.linux
+  263  ls
+  264  ll bin
+  265  ./bin/release/HelloLua
+  266  make
+  267  ll
+  268  make
+  269  ./bin/release/HelloLua
+  270  ls
+  271  make
+  272  ./bin/release/HelloLua
+  273  e
+  274  ./bin/release/HelloLua
+  275  make
+  276  ./bin/release/HelloLua
+  277  u
+  278  ll
+  279  u
+  280  cd TestLua/proj.linux
+  281  ll
+  282  ./bin/release/TestLua
+  283  lua
+  284  cd
+  285  sudo gedit /etc/profile
+  286  sudo gedit /etc/host
+  287  sudo gedit /etc/hosts
+  288  ls
+  289  make
+  290  ./bin/release/TestLua
+  291  whichis lua
+  292  whereis lua
+  293  cd work
+  294  cd lua_code/cocos_exp1
+  295  ls
+  296  cd proj.linux
+  297  ls
+  298  make
+  299  sudo gedit /etc/profile
+  300  echo $COCOS2DX_HOME
+  301  echo COCOS2DX_HOME
+  302  sudo gedit /etc/profile
+  303  echo $NDK_HOME
+  304  echo $COCOS2DX_HOME
+  305  cd work/lua_code/cocos_exp1
+  306  ls
+  307  cd proj.linux
+  308  make
+  309  sudo gedit /etc/profile
+  310  cd work/lua_code/
+  311  ls
+  312  cd cocos_exp1/proj.linux
+  313  ls
+  314  make
+  315  echo $COCOS2DX_HOME
+  316  ls
+  317  v Makefile
+  318  make
+  319  make EXECUTABLE=
+  320  c
+  321  cd
+  322  cd work/lua_code
+  323  ls
+  324  cd test
+  325  ls
+  326  cd proj.linux
+  327  ls
+  328  make
+  329  v Makefile
+  330  make
+  331  v Makefile
+  332  make
+  333  v Makefile
+  334  make
+  335  v Makefile
+  336  cd
+  337  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua
+  338  ls
+  339  cd Test/proj.linux
+  340  ls
+  341  make
+  342  ./bin/release/HelloLua
+  343  make
+  344  ./bin/release/HelloLua
+  345  make
+  346  ./bin/release/test_lua
+  347  cd work/cocos2d-x/cocos2d-x-2.1.4/samples
+  348  ls
+  349  cd Lua
+  350  ls
+  351  cd TestLua
+  352  ls
+  353  cd proj.linux
+  354  ls
+  355  ./bin/release/TestLua
+  356  ./bin/release/test_lua
+  357  cd /usr/lib/sublime-text-2
+  358  ls
+  359  sudo cp sublime_text sublime_text.bk
+  360  ls
+  361  sudo gedit sublime_text
+  362  sudo sublime_text.bk sublime_text
+  363  sudo ./sublime_text.bk sublime_text
+  364  cp sublime_text ~
+  365  byobu
+  366  cd
+  367  ls
+  368  sudo rm sublime_text
+  369  sudo cp sublime_text /usr/lib/sublime-text-2
+  370  la
+  371  ls
+  372  ./bin/release/test_lua
+  373  make
+  374  ./bin/release/test_lua
+  375  cd
+  376  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/
+  377  ls
+  378  cd TestLua
+  379  ls
+  380  cd proj.linux
+  381  ls
+  382  ./bin/release/
+  383  ls bin/
+  384  ls
+  385  cd ../..
+  386  ls
+  387  ./bin/release/TestLua
+  388  ./bin/release/test_lua
+  389  ./bin/release/TestLua
+  390  ./bin/release/test_lua
+  391  ls
+  392  cd ..
+  393  cd proj.linux
+  394  ./bin/release/TestLua
+  395  cd ..
+  396  ls
+  397  cd HelloLua
+  398  ls
+  399  cd proj.linux
+  400  ls
+  401  ./bin/release/HelloLua
+  402  ./bin/debug/HelloLua
+  403  make
+  404  ./bin/release/test_lua
+  405  make
+  406  ./bin/release/test_lua
+  407  ls
+  408  u
+  409  ls
+  410  u
+  411  cd TestLua/proj.linux/bin/release
+  412  ./TestLua
+  413  ./bin/release/test_lua
+  414  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/HelloLua/proj.linux/bin/release
+  415  ls
+  416  ./HelloLua
+  417  ./bin/release/test_lua
+  418  sudo apt-get install openvpn
+  419  sudo apt-get update
+  420  ./bin/release/test_lua
+  421  ./HelloLua
+  422  ./bin/release/test_lua
+  423  ./TestLua
+  424  man hton
+  425  free
+  426  stat
+  427  state
+  428  man stat
+  429  tree
+  430  tee
+  431  sudo apt-get install wine1.4-amd64
+  432  sudo apt-get install wine1.4
+  433  sudo apt-get update
+  434  sudo gedit /etc/apt/sources.list
+  435  sudo apt-get update
+  436  sudo apt-get install wine1.4-amd64
+  437  ghci
+  438  sudo apt-get update
+  439  byubo
+  440  byobu
+  441  ./TestLua
+  442  python
+  443  sudo apt-get update
+  444  sudo apt-get install wine1.4-amd64
+  445  sudo apt-get update
+  446  sudo apt-get install wine1.4-amd64
+  447  ping kaidee.tk
+  448  startx
+  449  sudo reboot
+  450  ifconfig
+  451  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/TestLua/proj.linux/
+  452  ls
+  453  ./bin/release/TestLua
+  454  ghc
+  455  cd vm/share
+  456  ls
+  457  cd 新建文件夹
+  458  ls
+  459  cabal update &&cabal install hprotoc
+  460  cd vm/share/新建文件夹
+  461  ls
+  462  ghci unzip.hs
+  463  v ~/.zshrc
+  464  cd vm/share/新建文件夹
+  465  ls
+  466  ghci unzip.hs
+  467  cd vm/share/新建文件夹
+  468  ls
+  469  unzip 60088.fla
+  470  ls
+  471  cd LIBRARY/
+  472  ls
+  473  ls 60088
+  474  v 60088/60088.xml
+  475  cabal install zip-archive
+  476  c
+  477  ls
+  478  ghci unzip.hs
+  479  ghc unzip.hs
+  480  ls
+  481  rm -rf 60088.xfl bin/ LIBRARY/ META-INF/metadata.xml MobileSettings.xml
+  482  ls
+  483  ./unzip 60088.fla
+  484  cd 60088
+  485  ls
+  486  c
+  487  ls
+  488  ls LIBRARY/60088
+  489  ls LIBRARY/png
+  490  u
+  491  ls
+  492  md fla
+  493  md res
+  494  mv 60088 fla
+  495  v parsefla.py
+  496  ls
+  497  v anim.proto
+  498  v 60088/60088.xml
+  499  u
+  500  ls
+  501  v fla/60088/LIBRARY/60088/60088.xml
+  502  v parsefla.py
+  503  e
+  504  v lib.txt
+  505  u
+  506  gedit /etc/modules
+  507  history
+  508  cd /
+  509  ls
+  510  cd dev
+  511  ls
+  512  cd ..
+  513  cd lib
+  514  ls
+  515  cd modules
+  516  ls
+  517  cd ..
+  518  cd modules
+  519  ls
+  520  cd 3.5.0-23-generic/kernel/net/wireless
+  521  ls
+  522  u
+  523  cd 3.5.0-34-generic/kernel/net/wireless
+  524  ls
+  525  cd /
+  526  ls /etc/modules
+  527  ifconfig -a
+  528  cd /lib/modules/3.5.0-23-generic/kernel/net
+  529  cd wireless
+  530  ls
+  531  cd Downloads/8188eu_USB_linux/driver/rtl8188eu
+  532  ls
+  533  make
+  534  la
+  535  cp 8188eu.ko rtl8188eu.ko
+  536  ls
+  537  sudo install rtl8188eu.ko /lib/modules/3.5.0-34-generic/kernel/drivers/net/wireless/rtl818x/rtl8188eu.ko
+  538  sudo depmod rtl8188eu.ko /lib/modules/3.5.0-34-generic/kernel/drivers/net/wireless/rtl818x/rtl8188eu.ko
+  539  sudo depmod /lib/modules/3.5.0-34-generic/kernel/drivers/net/wireless/rtl818x/rtl8188eu.ko
+  540  modprobe rtl8188eu
+  541  sudo reboot
+  542  ls
+  543  lsusb
+  544  cd Downloads/8188eu_USB_linux/driver
+  545  ls
+  546  cd rtl8188eu
+  547  ls
+  548  make
+  549  sudo make install
+  550  sudo reboot
+  551  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/TestLua
+  552  ls
+  553  cd proj.linux
+  554  ls
+  555  ./bin/release/TestLua
+  556  liliterm
+  557  lilyterm
+  558  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/Animate/proj.linux
+  559  ls
+  560  make
+  561  ./bin/release/Animate
+  562  make
+  563  ./bin/release/Animate
+  564  byobu
+  565  e
+  566  u
+  567  ls
+  568  cd TestLua
+  569  ls
+  570  cd proj.linux
+  571  ls
+  572  ./b
+  573  ./bin/release/TestLua
+  574  cd Do
+  575  byobu
+  576  java -version
+  577  ls /etc/profile
+  578  cat /etc/profile
+  579  sourtcE
+  580  sudo gedit /
+  581  sudo gedit /etc/profile
+  582  source
+  583  source /etc/profile
+  584  SDK_HOME
+  585  NDK_HOME
+  586  echo $SDK_HOME
+  587  sudo source /etc/profile
+  588  source /etc/profile
+  589  echo $env
+  590  echo $NDK_HOME
+  591  echo $SDK_HOME
+  592  cd /etc
+  593  ls
+  594  cat environment
+  595  sudo reboot
+  596  echo $SDK_HOME
+  597  cd work/cocos2d-x/cocos2d-x-2.1.4
+  598  ls
+  599  create-android-project.sh
+  600  cd android_test
+  601  ls
+  602  cd proj.android
+  603  ls
+  604  ./build_native.sh
+  605  sudo gedit /etc/profile
+  606  echo $SDK_ROOT
+  607  cd work/cocos2d-x/cocos2d-x-2.1.4/android_test/
+  608  ls
+  609  cd proj.android
+  610  ls
+  611  ./build_native.sh
+  612  sudo gedit /etc/profile
+  613  sudo logout
+  614  cd work/cocos2d-x/cocos2d-x-2.1.4/android_test/
+  615  cd proj.android/
+  616  ls
+  617  ./build_native.sh
+  618  echo $COCOS2DX_ROOT
+  619  cd $COCOS2DX_ROOT
+  620  ls
+  621  cd $NDK_ROOT
+  622  ls
+  623  cd $SDK_ROOT
+  624  ls
+  625  sudo apt-get install  libgl1-mesa-dev libglfw-dev freeglut3-dev libzip-dev
+  626  cd $COCOS2DX_ROOT
+  627  ls
+  628  byobu
+  629  cd work/cocos2d-x/cocos2d-x-2.1.4/samples
+  630  ls
+  631  cd Lua/TestLua/proj.linux
+  632  ls
+  633  ./bin/release/TestLua 
+  634  htop
+  635  sudo apt-get install htop
+  636  htop
+  637  top
+  638  free
+  639  tree
+  640  sudo apt-get install tig
+  641  tig
+  642  ls
+  643  cd github
+  644  ls
+  645  cd LilyTerm
+  646  tig
+  647  v ~/.zshrc
+  648  set -o vi
+  649  sudo apt-get install git-flow
+  650  cd
+  651  cd /tmp
+  652  md hi
+  653  cd hi
+  654  ls
+  655  git init
+  656  git flow init
+  657  git br
+  658  git branch
+  659  git branch -av
+  660  tig
+  661  git flow feature test
+  662  git flow feature start test
+  663  git branch -av
+  664  tig
+  665  git gui
+  666  git tk
+  667  sudo apt-get install git-gui gitg
+  668  tig
+  669  git gui
+  670  ls
+  671  v test.txt
+  672  git a .
+  673  git add .
+  674  git commit -m'新功能'
+  675  git config --global user.name "kaidee"
+  676  git config --global user.email "lkaidee@gmail.com"
+  677  git add .
+  678  git commit -m'test'
+  679  git lg
+  680  git log\n
+  681  ls
+  682  v test.txt
+  683  git commit -am'test 2'
+  684  git flow feature finish test
+  685  python 
+  686  ifconfig
+  687  HISTCHAR
+  688  history
+  689  e
+  690  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/Animate/proj.linux
+  691  ls
+  692  ./bin/release/Animate
+  693  make
+  694  ./bin/release/Animate
+  695  make
+  696  ./bin/release/Animate
+  697  make
+  698  ./bin/release/Animate
+  699  make
+  700  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Cpp/testpeng
+  701  ls
+  702  cd proj.linux
+  703  ls
+  704  make
+  705  openvpn
+  706  sudo apt-get install openvpn
+  707  sudo init0
+  708  sudo shutdown -now
+  709  sudo init 0
+  710  cd github
+  711  ls
+  712  git clone https://github.com/dualface/quick-cocos2d-x.git
+  713  cd Android/adt-bundle-linux-x86_64-20130522
+  714  ls
+  715  cd sdk
+  716  ls
+  717  ./platform-tools/adb
+  718  s ./platform-tools/adb
+  719  stat ./platform-tools/adb
+  720  ./platform-tools/adb
+  721  cd platform-tools
+  722  ls
+  723  ./adb
+  724  du -h adb
+  725  sudo apt-get install ia32-libs
+  726  apt-cache show ia32-libs
+  727  ./adb
+  728  lsusb
+  729  ls
+  730  adb restart
+  731  adb help
+  732  adb res
+  733  adb kill-server
+  734  adb start-server
+  735  adb kill-server
+  736  adb start-server
+  737  adb kill-server
+  738  adb start-server
+  739  adb devices
+  740  cp ../../eclipse/../../workspace/test/bin/test.apk .
+  741  ls
+  742  adb install test.apk
+  743  adb devices
+  744  adb helpo
+  745  adb help
+  746  adb status-window
+  747  cd work/cocos2d-x
+  748  ls
+  749  cd cocos2d-x-2.1.4
+  750  ls
+  751  ./buil-
+  752  ./create-android-project.sh
+  753  ls
+  754  v create-android-project.sh
+  755  cd samples/Cpp/TestCpp
+  756  ls
+  757  cd proj.android
+  758  ls
+  759  ./build_native.sh
+  760  ls
+  761  sudo apt-get install ssh 
+  762  ls
+  763  head Untitled\ Document
+  764  rm Untitled\ Document
+  765  rm Untitled\ Document\~
+  766  c
+  767  ls
+  768  cd Android
+  769  ls
+  770  ssh-keygen
+  771  scp ~/.ssh/id_rsa.pub git@192.168.1.127:kd.pub
+  772  sudoedit /etc/hosts
+  773  ssh git@d.s
+  774  su git
+  775  ls
+  776  scp Android/adt-bundle-linux-x86_64-20130522.zip git@d.s:
+  777  scp Android/android-ndk-r8e-linux-x86_64.tar.bz2 git@d.s:
+  778  ls
+  779  cd
+  780  cd Android
+  781  ls
+  782  cd adt-bundle-linux-x86_64-20130522/sdk/platform-tools
+  783  ls
+  784  rm test.apk
+  785  ln -s ~/Android/workspace/test/bin/test.apk .
+  786  adb inst
+  787  adb install te
+  788  adb install test.apk
+  789  man make
+  790  byobu\n
+  791  e
+  792  ls
+  793  ll
+  794  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/Test/ls
+  795  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/Test/
+  796  ls
+  797  ll
+  798  cd proj.linux
+  799  ls
+  800  ./bin/release/test_lua
+  801  u
+  802  ls
+  803  cd MenuTest
+  804  ls
+  805  cd p
+  806  cd proj.linux
+  807  ls
+  808  ./bin/release/TestLua
+  809  cd work/cocos2d-x/cocos2d-x-2.1.4/samples/Lua/Test/proj.linux
+  810  ls
+  811  ./b
+  812  ./bin/release/test_lua
+  813  make
+  814  ./bin/release/test_lua
+  815  make
+  816  ./bin/release/test_lua
+  817  make
+  818  ./bin/release/test_lua
+  819  ./bin/release/TestLua
+  820  man make
+  821  ls
+  822  sudo apt-get install cmake-gui
+  823  ./bin/release/TestLua
+  824  ls
+  825  md github
+  826  cd github
+  827  ls
+  828  git clone git://github.com/gittup/tup.git
+  829  cd tup
+  830  ls
+  831  ./bootstrap.sh
+  832  sudo apt-get install libfuse-dev
+  833  passwd
+  834  sudo -s
+  835  passwd kaidee
+  836  ./bootstrap.sh
+  837  ./tup
+  838  ls
+  839  c
+  840  ls
+  841  man tup.1
+  842  man ./tup.1
+  843  ls
+  844  v README.md
+  845  ls build
+  846  c
+  847  ls
+  848  ls docs
+  849  sudo poweroff
+  850  ssh d.s
+  851  ping d.s
+  852  ssh d.s
+  853  ssh david@d.s
+  854  tup
+  855  cd github/tup
+  856  ls
+  857  ./build.sh
+  858  tup
+  859  cd
+  860  cd github/tup
+  861  man tup
+  862  md tup_test
+  863  cd tup_test
+  864  tup init
+  865  u
+  866  ls
+  867  python tup_client.py
+  868  ./bootstrap.sh
+  869  ./tup
+  870  cd 
+  871  tup
+  872  sudo apt-add-repository 'deb http://ppa.launchpad.net/anatol/tup/ubuntu lucid main'
+  873  sudo aT
+  874  sudo apt-get update
+  875  sudo apt-get install tup
+  876  tup
+  877  ls
+  878  cd work/
+  879  ls
+  880  md tup_test
+  881  cd tup_test
+  882  tup init
+  883  editor hello.c
+  884  ll
+  885  ls -a
+  886  ls
+  887  cd
+  888  ls
+  889  md bin
+  890  ls
+  891  v .zshrc
+  892  cp github/tup/tup bin
+  893  sudo apt-get purge tup
+  894  tup
+  895  ls
+  896  echo $PATH
+  897  cd work
+  898  ls
+  899  ping d.s
+  900  git clone git@d.s:lychee/client.git
+  901  cd client
+  902  ls
+  903  git br
+  904  git branch
+  905  v ~/.gitconfig
+  906  ping david.dev
+  907  sudoedit /etc/hosts
+  908  ping david.dev
+  909  ssh david@david.dev
+  910  git s
+  911  git br
+  912  git br -a
+  913  git flow init 
+  914  git log
+  915  git checkout --track origin/develop
+  916  git merge --track origin/develop
+  917  git merge origin/develop
+  918  git s
+  919  ls
+  920  git push
+  921  git s
+  922  tup init
+  923  ls
+  924  cd libs/cocos2dx/proj.linux/
+  925  ls
+  926  make -j 4 DEBUG=1
+  927  make -j 4 DEBUG=0
+  928  ls
+  929  u
+  930  ls
+  931  u
+  932  ls
+  933  cd CocosDenshion
+  934  ls
+  935  cd proj.linux
+  936  ls
+  937  make -j 4
+  938  make -j 4 DEBUG=1
+  939  u
+  940  ls
+  941  u
+  942  ls
+  943  u
+  944  ls
+  945  v Tupfile
+  946  tup upd
+  947  v Tupfile
+  948  cd
+  949  cd work/client
+  950  ls
+  951  cd sources
+  952  ls
+  953  v Tupfile
+  954  tup upd
+  955  sudo apt-get install ack-grep
+  956  ack-grep david
+  957  ack-grep david *
+  958  ls
+  959  tup upd
+  960  u
+  961  ls
+  962  cd sources
+  963  ls
+  964  v Tupfile
+  965  u
+  966  v Tuprules.tup
+  967  tup upd
+  968  sudo apt-get install libtolua++5.1-dev
+  969  tup upd
+  970  cd sources
+  971  ls
+  972  cd LuaInterface
+  973  make
+  974  u
+  975  tup upd
+  976  u
+  977  ls
+  978  cd resources
+  979  ls
+  980  scp -r david@david.dev:pl/team/client/resources/mc .
+  981  scp -r david@david.dev:pl/team/client/resources/images .
+  982  u
+  983  ls
+  984  tup upd
+  985  ./lychee
+  986  cd libs/lib
+  987  ls
+  988  cd linux
+  989  ls
+  990  cd debug
+  991  ls
+  992  sudo cp libcocos* /usr/lib/
+  993  u
+  994  ls
+  995  u
+  996  ls
+  997  cd lua
+  998  ls
+  999  cd luajit
+ 1000  ls
+ 1001  cd LuaJIT-2.0.1
+ 1002  ls
+ 1003  ls ..
+ 1004  ls ../linux
+ 1005  cd ../linux
+ 1006  ls
+ 1007  sudo cp libluajit.so /usr/lib/libluajit-5.1.so.2
+ 1008  u;u;
+ 1009  ls
+ 1010  u
+ 1011  ./lychee
+ 1012  u
+ 1013  ls
+ 1014  cd work
+ 1015  ls
+ 1016  cd cocos2d-x
+ 1017  ls
+ 1018  cd cocos2d-x-2.1.4
+ 1019  ls
+ 1020  ./install-deps-linux.sh
+ 1021  sudo apt-get upgrade
+ 1022  ls
+ 1023  ssh d.s
+ 1024  ssh david@d.s
+ 1025  sudo apt-get update
+ 1026  ssh david@d.s
+ 1027  sudo apt-get install libglew1.6-dev
+ 1028  sudo apt-get install libglew1.5-dev
+ 1029  u;u
+ 1030  cd client
+ 1031  ls
+ 1032  ./lychee
+ 1033  ssh david@d.s
+ 1034  tup upd
+ 1035  ./lychee
+ 1036  env
+ 1037  ls ../cocos2d-x/cocos2d-x-2.1.4
+ 1038  ls
+ 1039  rm -rf .tup
+ 1040  ls
+ 1041  find
+ 1042  find . -name "*.o" -exec ls {} \;
+ 1043  cd sources
+ 1044  find . -name "*.o" -exec rm {} \;
+ 1045  ls
+ 1046  find . -name "*.a" -exec rm {} \;
+ 1047  u
+ 1048  ls
+ 1049  cd libs
+ 1050  u
+ 1051  tup init
+ 1052  tup upd
+ 1053  rm projects/proj.linux/main.o
+ 1054  tup upd
+ 1055  ls
+ 1056  tup upd
+ 1057  cd libs/extensions
+ 1058  ls
+ 1059  u
+ 1060  ls
+ 1061  find . -name "*.o" -exec rm {} \;
+ 1062  tup upd
+ 1063  find . -name "*.a" -exec rm {} \;
+ 1064  tup upd
+ 1065  u
+ 1066  ls
+ 1067  rm lychee
+ 1068  tup upd
+ 1069  cd libs/lua/cocos2dx_support
+ 1070  ls
+ 1071  ls *.o
+ 1072  ls *.cpp
+ 1073  v LuaCocos2d.cpp
+ 1074  git s
+ 1075  u;u
+ 1076  git checkout cocos2dx/platform/third_party/linux/libraries/lib64/libcurl.a
+ 1077  git checkout cocos2dx/platform/third_party/linux/libraries/lib64/
+ 1078  git s
+ 1079  git checkout cocos2dx/platform/third_party/linux/libraries/
+ 1080  git s
+ 1081  git checkout cocos2dx/platform/third_party/ios/libraries/libcurl.a
+ 1082  git s
+ 1083  git checkout cocos2dx/platform/third_party/ios/libraries/libwebp.a
+ 1084  git checkout libwebsockets/ios/lib/libwebsockets.a
+ 1085  git checkout lua/luajit/ios/libluajit.a
+ 1086  tup upd
+ 1087  git s
+ 1088  sudo 
+ 1089  sudo apt-cache
+ 1090  sudo apt-get purge libglew1.5-dev
+ 1091  tup upd
+ 1092  sudo apt-get purge libglew1.6-dev
+ 1093  sudo apt-get autoremove
+ 1094  tup upd
+ 1095  git s
+ 1096  sudo apt-get install libglew1.6-dev
+ 1097  tup upd
+ 1098  sudo chmod a+x /etc/fuse.conf
+ 1099  tup upd
+ 1100  sudo chmod a+r /etc/fuse.conf
+ 1101  tup upd
+ 1102  .
+ 1103  ls
+ 1104  u
+ 1105  ls
+ 1106  ./lychee
+ 1107  ldd lychee
+ 1108  env
+ 1109  pkg-config --help
+ 1110  pkg-config --libs
+ 1111  pkg-config --libs libglew
+ 1112  cd work/client
+ 1113  tup upd
+ 1114  ls
+ 1115  ldd lychee
+ 1116  ls
+ 1117  v Tupfile
+ 1118  v Tuprules.tup
+ 1119  cd libs/lib
+ 1120  ls
+ 1121  cd linux
+ 1122  ls
+ 1123  cd debug
+ 1124  ls
+ 1125  ldd libcocos2d.so
+ 1126  u
+ 1127  cd libs
+ 1128  ls
+ 1129  cd cocos2dx
+ 1130  ls
+ 1131  cd proj.linux
+ 1132  ls
+ 1133  rm -rf obj
+ 1134  make DEBUG=1
+ 1135  u
+ 1136  ls
+ 1137  u
+ 1138  ls
+ 1139  tup upd
+ 1140  ldd lychee
+ 1141  v Tupfile
+ 1142  ssh david@d.s
+ 1143  uname -a
+ 1144  sudo apt-get upgrade
+ 1145  c
+ 1146  ldd lychee
+ 1147  ls
+ 1148  v Tupfile
+ 1149  cd libs/CocosDenshion
+ 1150  ls
+ 1151  ls proj.linux
+ 1152  cd proj.linux
+ 1153  ls
+ 1154  v Makefile
+ 1155  ls
+ 1156  ls obj
+ 1157  u
+ 1158  ls
+ 1159  ls third_party
+ 1160  u
+ 1161  ls
+ 1162  cd lib/linux/debug
+ 1163  ldd libcocosdenshion.so
+ 1164  u
+ 1165  ls
+ 1166  u
+ 1167  ls
+ 1168  u
+ 1169  ls
+ 1170  u
+ 1171  ls
+ 1172  v Tuprules.tup
+ 1173  c
+ 1174  ls
+ 1175  tup upd
+ 1176  ls
+ 1177  rm lychee
+ 1178  ls
+ 1179  tup upd
+ 1180  ./lychee
+ 1181  ldd /usr/lib/libcocos2d.so
+ 1182  ls
+ 1183  g++ -Wall -fPIC -o lychee projects/proj.linux/main.o -Bstatic sources/sources.a libs/extensions/sources.a libs/lua/sources.a libs/pbc/pbc.a libs/extensions/sources.a -Llibs/lib/linux/debug -Llibs/lua/luajit/linux -lcocos2d -lcocosdenshion -lluajit
+ 1184  ./lychee
+ 1185  pkg-config -cflags libglew-1.7
+ 1186  pkg-config --cflags libglew-1.7
+ 1187  ack libglew
+ 1188  ack libGLEW
+ 1189  ack-grep libGLEW
+ 1190  apt-cache search glew
+ 1191  cd libs/cocos2dx
+ 1192  ls
+ 1193  cd platform
+ 1194  ls
+ 1195  c
+ 1196  ls
+ 1197  cd linux
+ 1198  ls
+ 1199  u
+ 1200  cd third_party
+ 1201  ls
+ 1202  cd linux
+ 1203  ls
+ 1204  ls include64
+ 1205  git log
+ 1206  sudo apt-get install libglew-dev
+ 1207  sudo apt-get install build-essential
+ 1208  sudo apt-get upgrade
+ 1209  sudo apt-get dist-upgrade
+ 1210  gcc -v
+ 1211  ls
+ 1212  cd work/client
+ 1213  tup upd
+ 1214  ./lychee
+ 1215  ldd lychee
+ 1216  man ldd
+ 1217  ldd -v lychee
+ 1218  tup upd
+ 1219  ls
+ 1220  cd .tup
+ 1221  ls
+ 1222  v shared
+ 1223  v object
+ 1224  ls mnt
+ 1225  ls tmp
+ 1226  u
+ 1227  ls
+ 1228  v .tup/db
+ 1229  ls
+ 1230  ldd lychee
+ 1231  man ldd
+ 1232  man ldconfig
+ 1233  v /etc/ld.so.cache
+ 1234  v /etc/ld.so.conf
+ 1235  ls /etc/ld.so.conf.d
+ 1236  cd /etc/ld.so.conf.d
+ 1237  ack libgl
+ 1238  ls
+ 1239  ack-grep libgl
+ 1240  ls
+ 1241  ack-grep libgl*
+ 1242  ack-grep libgl *
+ 1243  ls
+ 1244  c
+ 1245  ls
+ 1246  v i686-linux-gnu.conf
+ 1247  sudo apt-get upgrade
+ 1248  cd work/client
+ 1249  ls
+ 1250  git s
+ 1251  cd libs/CocosDenshion
+ 1252  ls
+ 1253  cd proj.linux
+ 1254  ls
+ 1255  cd obj
+ 1256  ls
+ 1257  u
+ 1258  sudo cp lib/linux/release/libcocos2d.so /usr/lib
+ 1259  sudo cp lib/linux/release/libcocosdenshion.so /usr/lib
+ 1260  u
+ 1261  ls
+ 1262  tup upd
+ 1263  ./lychee
+ 1264  cd Downloads
+ 1265  ls
+ 1266  cd 8188eu_USB_linux
+ 1267  ls
+ 1268  ln -s driver/rtl8188eu/ src
+ 1269  cd src
+ 1270  ls
+ 1271  sudo make install
+ 1272  sudo apt-get upgrade
+ 1273  sudo apt-get update
+ 1274  sudo apt-get upgrade
+ 1275  cd work/client
+ 1276  ls
+ 1277  tup upd
+ 1278  echo $LD_LIBRARY_PATH
+ 1279  ldd lychee
+ 1280  vi ~/.zsh_history
+ 1281  sudo apt-get purge libglew1.6
+ 1282  sudo apt-get purge libglew1.6-dev
+ 1283  sudo apt-get autoremove
+ 1284  tup upd
+ 1285  ls
+ 1286  tup --help
+ 1287  man tup
+ 1288  git s
+ 1289  tup ref
+ 1290  tup
+ 1291  tup upd
+ 1292  l
+ 1293  ls
+ 1294  c
+ 1295  ls
+ 1296  rm lychee
+ 1297  rm sources/AppDelegate.o
+ 1298  rm sources/sources.a
+ 1299  tup upd
+ 1300  sudo apt-get install libglew1.6-dev
+ 1301  tup upd
+ 1302  ls
+ 1303  ldd lychee
+ 1304  objdump -x lychee
+ 1305  objdump -x lychee 
+ 1306  objdump -x lychee | grep libglew
+ 1307  objdump -x lychee | grep libglEw
+ 1308  objdump -x lychee | grep libglEW
+ 1309  objdump  lychee | grep libglEW
+ 1310  cd work/client
+ 1311  tup upd
+ 1312  ./l
+ 1313  ./lychee
+ 1314  sudo cp /usr/lib/x86_64-linux-gnu/libGLEW.so.1.6 /usr/lib/libGLEW.so.1.7
+ 1315  ./lychee
+ 1316  ldd lychee
+ 1317  sudo cp libs/CocosDenshion/third_party/fmod/lib64/api/lib/libfmodex64.so /usr/lib
+ 1318  ./lychee
+ 1319  tup upd
+ 1320  ./lychee
+ 1321  cd libs
+ 1322  ls
+ 1323  cd cocos2dx
+ 1324  ls
+ 1325  cd proj.linux
+ 1326  make
+ 1327  u
+ 1328  ls
+ 1329  u
+ 1330  ls
+ 1331  c
+ 1332  ls
+ 1333  cd CocosDenshion
+ 1334  ls
+ 1335  cd proj.linux
+ 1336  ls
+ 1337  make
+ 1338  u
+ 1339  cd third_party
+ 1340  ls
+ 1341  cd fmod
+ 1342  ls
+ 1343  make
+ 1344  make all
+ 1345  c
+ 1346  ls
+ 1347  ls api
+ 1348  u
+ 1349  ls
+ 1350  ls libs/lib
+ 1351  ls libs/lib/linux/debug/libcocos
+ 1352  u
+ 1353  ls
+ 1354  ssh david@d.s
+ 1355  ls
+ 1356  cd work/client
+ 1357  ls
+ 1358  ldd lychee
+ 1359  sudo rm /usr/lib/libGLEW.so.1.7
+ 1360  sudo rm /usr/lib/libfmodex64.so 
+ 1361  c
+ 1362  ls
+ 1363  u
+ 1364  cd client
+ 1365  git s
+ 1366  u
+ 1367  rm -rf client
+ 1368  git clone git@d.s:lychee/client.git
+ 1369  u
+ 1370  ls
+ 1371  la
+ 1372  cd .config
+ 1373  c
+ 1374  ls
+ 1375  u
+ 1376  ls
+ 1377  cd work/client
+ 1378  ls
+ 1379  la
+ 1380  ls
+ 1381  cd libs
+ 1382  ls
+ 1383  cd cocos2dx
+ 1384  ls
+ 1385  history
+ 1386  git flow init
+ 1387  git br
+ 1388  git flow init
+ 1389  git log
+ 1390  git merge --track origin/develop
+ 1391  git merge origin/develop
+ 1392  git s
+ 1393  git log
+ 1394  ls
+ 1395  cd proj.linux
+ 1396  ls
+ 1397  make DEBUG=1
+ 1398  cd work/client
+ 1399  ls
+ 1400  u
+ 1401  ls
+ 1402  cd CocosDenshion
+ 1403  ls
+ 1404  cd proj.linux
+ 1405  ls
+ 1406  make DEBUG=1
+ 1407  cd work/client
+ 1408  ls
+ 1409  u
+ 1410  ls
+ 1411  u
+ 1412  ls
+ 1413  u
+ 1414  ls
+ 1415  tup upd
+ 1416  tup init
+ 1417  v Tuprules.tup
+ 1418  v Tupfile
+ 1419  tup upd
+ 1420  cd sources
+ 1421  ls
+ 1422  cd LuaInterface
+ 1423  make
+ 1424  tup upd
+ 1425  u
+ 1426  ldd lychee
+ 1427  history
+ 1428  ./lychee
+ 1429  ldd /usr/lib/x86_64-linux-gnu/libGLEW.so
+ 1430  sudo apt-get install libglfw2 libglfw-dev libzip2 libzip-dev
+ 1431  man apt-get
+ 1432  sudo apt-get install elfutils
+ 1433  sudo apt-get autoremove
+ 1434  ldd lychee
+ 1435  ssh david@d.s
+ 1436  ldd lychee
+ 1437  c
+ 1438  ldd lychee
+ 1439  ldd /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4
+ 1440  sudo -s
+ 1441  passwd dev
+ 1442  chsh -s /bin/zsh
+ 1443  vim
+ 1444  cd work/client
+ 1445  git s
+ 1446  tup upd
+ 1447  u
+ 1448  ls
+ 1449  cd cocos2d-x
+ 1450  ls
+ 1451  cd cocos2d-x-2.1.4
+ 1452  ls
+ 1453  ./install-deps-linux.sh
+ 1454  sudo rm /var/lib/dpkg/lock
+ 1455  ./install-deps-linux.sh
+ 1456  sudo dpkg --configure -a
+ 1457  ./install-deps-linux.sh
+ 1458  cd work/client
+ 1459  tup upd
+ 1460  sudo apt-get install libtolua++5.1-dev
+ 1461  ls sources/MachineCode
+ 1462  sudo apt-get install libtolua++5.1-dev
+ 1463  tup upd
+ 1464  ldd lychee
+ 1465  md ~/lib
+ 1466  cp libs/lib/linux/debug/libcocos* ~/lib
+ 1467  ls ~/lib
+ 1468  cp libs/lua/luajit/linux/libluajit.so  ~/lib/libluajit-5.1.so.2
+ 1469  vi ~/.zshrc
+ 1470  v Tupfile
+ 1471  tup upd
+ 1472  v Tupfile
+ 1473  tup upd
+ 1474  v Tupfile
+ 1475  tup upd
+ 1476  v Tupfile
+ 1477  tup upd
+ 1478  v Tupfile
+ 1479  git s
+ 1480  tup upd
+ 1481  cd
+ 1482  cd lib
+ 1483  ls
+ 1484  sudo cp * /usr/lib
+ 1485  cd -2
+ 1486  ./lychee
+ 1487  cd resources
+ 1488  ls
+ 1489  ping david.dev
+ 1490  scp -r david@david.dev:pl/team/client/resources/mc .
+ 1491  scp -r david@david.dev:pl/team/client/resources/images .
+ 1492  u
+ 1493  ./lychee
+ 1494  git pull
+ 1495  git log
+ 1496  v ~/.gitconfig
+ 1497  git s
+ 1498  git merge origin/develop
+ 1499  tup upd
+ 1500  ./lychee
+ 1501  v main.cpp
+ 1502  tup upd
+ 1503  ./lychee
+ 1504  cd
+ 1505  sudo reboot
+ 1506  sudo add-apt-repository ppa:webupd8team/sublime-text-2
+ 1507  sudo apt-get update
+ 1508  sudo apt-get install sublime-text
+ 1509  which sublime
+ 1510  whereis sublime-text-2
+ 1511  cd /usr/lib
+ 1512  ls
+ 1513  cd sublime-text-2
+ 1514  ls
+ 1515  ./sublime_text
+ 1516  sudo cp Downloads/Sublime\ Text\ 2/sublime_text\ \(copy\) /usr/lib/sublime-text-2
+ 1517  ls
+ 1518  sudo cp Downloads/Sublime\ Text\ 2/sublime_text\ \(copy\) /usr/lib/sublime-text-2/sublime_text
+ 1519  ls /etc/
+ 1520  cd /etc
+ 1521  ls
+ 1522  cat hosts
+ 1523  sudo gedit hosts
+ 1524  dirs
+ 1525  dirs -v
+ 1526  cd
+ 1527  ls
+ 1528  ll
+ 1529  cd work/
+ 1530  ls
+ 1531  cd lua_code
+ 1532  ls
+ 1533  u
+ 1534  cd tup_test
+ 1535  ls
+ 1536  ll
+ 1537  ll -a
+ 1538  md test
+ 1539  ls
+ 1540  rm test
+ 1541  rm -d test
+ 1542  cd test
+ 1543  ls
+ 1544  touch hello.c
+ 1545  ls
+ 1546  rm -d
+ 1547  man rm 
+ 1548  rm -i hello.c
+ 1549  ls
+ 1550  man rm 
+ 1551  md hi
+ 1552  man mkdir
+ 1553  md tt/tt
+ 1554  ll
+ 1555  ll -r
+ 1556  ll -a
+ 1557  ll tt/
+ 1558  md dd/ee/rr
+ 1559  ll -a
+ 1560  ls -a
+ 1561  ls -r
+ 1562  man ls
+ 1563  ls -d
+ 1564  rm -r dd
+ 1565  ls
+ 1566  ps
+ 1567  ps -a
+ 1568  ps -l
+ 1569  ps -aux
+ 1570  ps -au
+ 1571  pa -a
+ 1572  ps -a
+ 1573  pstree
+ 1574  man apt-get
+ 1575  lua
+ 1576  sudo apt-get install lua
+ 1577  sudo apt-get install lua5.2
+ 1578  lua
+ 1579  u
+ 1580  ls
+ 1581  rm -rf test
+ 1582  ls
+ 1583  ls -a
+ 1584  gedit Tupfile
+ 1585  tup upd
+ 1586  ./hello
+ 1587  tup upd
+ 1588  gedit hello.c
+ 1589  tup upd
+ 1590  ./hello
+ 1591  gedit Tupfile
+ 1592  tup upd
+ 1593  cat /etc/fuse.conf
+ 1594  chmod 755 /etc/fuse.conf
+ 1595  sudo chown /etc/fuse.conf
+ 1596  sudo chmod 755 /etc/fuse.conf
+ 1597  tup upd
+ 1598  ./hello
+ 1599  tup upd
+ 1600  ./hello
+ 1601  ll
+ 1602  sudo -s
+ 1603  adduser david
+ 1604  passwd david
+ 1605  sudo -aG sudo david
+ 1606  usermod -aG sudo david
+ 1607  ifconfig
+ 1608  who
+ 1609  sudo apt-get install ssh
+ 1610  who
+ 1611  top
+ 1612  sudo apt-get install htop
+ 1613  htop
+ 1614  ls *.c
+ 1615  byubo
+ 1616  byobu
+ 1617  q
+ 1618  e
+ 1619  tup graph . | dot -Tpng > ~/hello.png
+ 1620  tup upd
+ 1621  ./helloo
+ 1622  la
+ 1623  ifconfig
+ 1624  ping qq.com
+ 1625  ifconfig
+ 1626  ping 192.168.1.97
+ 1627  ifconfig
+ 1628  ping qq.com
+ 1629  ifconfig
+ 1630  sudo gedit /etc/hosts
+ 1631  sudo apt-get install scons
+ 1632  scons
+ 1633  ls
+ 1634  scons
+ 1635  ./hello
+ 1636  ll
+ 1637  cd
+ 1638  c
+ 1639  cd work/poem_client_linux
+ 1640  ls
+ 1641  v buildall.sh
+ 1642  v update.sh
+ 1643  cd protocol
+ 1644  ls
+ 1645  scons
+ 1646  cd
+ 1647  cd work/tup_test
+ 1648  ls
+ 1649  scons
+ 1650  ls
+ 1651  ./hello
+ 1652  u
+ 1653  cd poem_client_linux
+ 1654  ls
+ 1655  ./protobuf-android
+ 1656  u
+ 1657  ls
+ 1658  c
+ 1659  ls
+ 1660  chmod +x buildall.sh
+ 1661  chmod +x update.sh
+ 1662  cat buildall.sh
+ 1663  cd protocol
+ 1664  ls
+ 1665  chmod +x gen.sh
+ 1666  u
+ 1667  ./buildall.sh
+ 1668  chmod +x script/copyassets.py 
+ 1669  cd script
+ 1670  ls
+ 1671  chmod +x .
+ 1672  chmod +x *
+ 1673  ls
+ 1674  u
+ 1675  ./buildall.sh
+ 1676  v script/tolua.py
+ 1677  ./buildall.sh
+ 1678  sl
+ 1679  v luaapi/luaapi.cpp +21
+ 1680  v src/MC/MovieClip.h +7
+ 1681  ls protobuf-android/protobuf/src/google/protobuf/stubs/common.h
+ 1682  v SConstruct
+ 1683  scons
+ 1684  v cocos2dx/cocos2dx/platform/third_party/linux/curl/curlrules.h +143
+ 1685  ./buildall.sh
+ 1686  cd protocol
+ 1687  ls
+ 1688  ./gen.sh
+ 1689  v gen.sh
+ 1690  tmux
+ 1691  byobu
+ 1692  v gen.sh
+ 1693  u
+ 1694  ls
+ 1695  ls protocol/config
+ 1696  ls
+ 1697  u
+ 1698  ls
+ 1699  c
+ 1700  ls
+ 1701  cd poem_client_linux
+ 1702  c
+ 1703  lks
+ 1704  u
+ 1705  ls
+ 1706  ls -l libcocosdenshion.so
+ 1707  chmod +x lib*
+ 1708  ls
+ 1709  c
+ 1710  ls
+ 1711  ./buildall.sh
+ 1712  sudo apt-get install libcurl4-openssl-dev
+ 1713  ./buildall.sh
+ 1714  sudo apt-get install curl
+ 1715  ./buildall.sh
+ 1716  sudo apt-get install ia32-libs
+ 1717  git s
+ 1718  git init
+ 1719  git s
+ 1720  git a .
+ 1721  git commit -m 'init add'
+ 1722  git s
+ 1723  ls
+ 1724  la
+ 1725  c
+ 1726  ./buildall.sh
+ 1727  cd cocos2dx/cocos2dx/platform/third_party
+ 1728  ls
+ 1729  cd linux
+ 1730  ls
+ 1731  c
+ 1732  ls
+ 1733  cd curl
+ 1734  ls
+ 1735  v stdcheaders.h
+ 1736  v curl.h
+ 1737  ls
+ 1738  ls ../libraries
+ 1739  cd ../libraries
+ 1740  ls
+ 1741  file libcurl.a
+ 1742  man ar
+ 1743  ar -x libcurl.a
+ 1744  ls
+ 1745  file splay.o
+ 1746  ls
+ 1747  c
+ 1748  ghci
+ 1749  cabal update
+ 1750  cabal install yesod hoogle
+ 1751  htop
+ 1752  e
+ 1753  cd
+ 1754  cd github
+ 1755  ls
+ 1756  git clone https://github.com/kaidee/kaidee.git
+ 1757  ll
+ 1758  ll kaidee
+ 1759  git init
+ 1760  git add .
+ 1761  git commit -m 'init'
+ 1762  cd kaidee
+ 1763  git log
+ 1764  git add .
+ 1765  git commit -m 'init'
+ 1766  git push
+ 1767  git log
+ 1768  git rm -r _layouts
+ 1769  ls
+ 1770  git rm -r _posts
+ 1771  ls
+ 1772  git rm _config.yml
+ 1773  git rm index.html
+ 1774  git log
+ 1775  c
+ 1776  cp ~/../david/.gitconfig ~/
+ 1777  v ~/.gitconfig
+ 1778  git s
+ 1779  cat ~/.gitconfig
+ 1780  gedit ~/.gitconfig
+ 1781  git a .
+ 1782  git c 'delete something'
+ 1783  git push
+ 1784  git s
+ 1785  e
+ 1786  cd
+ 1787  ghci
+ 1788  sudo poweroff
+ 1789  vim
+ 1790  free
+ 1791  htop
+ 1792  cd work/vimtest
+ 1793  ls
+ 1794  vim readme.txt
+ 1795  cd github/kaidee
+ 1796  ls
+ 1797  ls src
+ 1798  git s
+ 1799  v .gitignore
+ 1800  sudo apt-get install exuberant-ctags
+ 1801  v .gitignore
+ 1802  git s
+ 1803  git a .
+ 1804  git s
+ 1805  cd src
+ 1806  ls
+ 1807  v Main.hs
+ 1808  ghci Main.hs
+ 1809  python
+ 1810  v Main.hs
+ 1811  vim readme.txt
+ 1812  gvim readme.txt
+ 1813  gvim testfile
+ 1814  vim testfile
+ 1815  vim hello.c
+ 1816  vim readme.txt
+ 1817  vim Tupfile
+ 1818  vim hello.c
+ 1819  gvim hello.c
+ 1820  vim hello.c
+ 1821  gvim hello.c
+ 1822  vim hello.c
+ 1823  gvim hello.c
+ 1824  vim hello.c
+ 1825  gvim hello.c
+ 1826  vim hello.c
+ 1827  ghci
+ 1828  ping qq.com
+ 1829  gedit /etc/hosts
+ 1830  sudo poweroff
+ 1831  ping qq.com
+ 1832  cd Downloads
+ 1833  ls
+ 1834  u
+ 1835  cd software
+ 1836  cd 8188eu_USB_linux
+ 1837  ls
+ 1838  cd driver/rtl8188eu
+ 1839  ls
+ 1840  make
+ 1841  sudo make install
+ 1842  ghci
+ 1843  sublime-text
+ 1844  which sublime-text
+ 1845  sub
+ 1846  alias sub
+ 1847  ghci
+ 1848  sub
+ 1849  sublime-text
+ 1850  source
+ 1851  source ~/.zshrc
+ 1852  sub
+ 1853  ghci
+ 1854  ghci a.hs
+ 1855  ls
+ 1856  mv a.hs ~/github/kaidee/haskellGem
+ 1857  cd ~/github/kaidee/haskellGem
+ 1858  c
+ 1859  ls
+ 1860  ls ~/github/kaidee/haskellGem
+ 1861  cd ~/github/kaidee/haskellGem
+ 1862  ls
+ 1863  ghci a.hs
+ 1864  ghc --version
+ 1865  cd
+ 1866  cd software
+ 1867  ls
+ 1868  tar -czf haskell-platform-2013.2.0.0.tar.gz
+ 1869  tar -xvf haskell-platform-2013.2.0.0.tar.gz
+ 1870  ls
+ 1871  cd haskell-platform-2013.2.0.0
+ 1872  ls
+ 1873  c
+ 1874  ls
+ 1875  which ghci
+ 1876  ls `which ghci`
+ 1877  ls -l `which ghci`
+ 1878  ls -l /usr/lib/ghc/
+ 1879  ls -l /usr/lib/ghc/ghc-7.4.1
+ 1880  ls -l /usr/lib/ghc/bin
+ 1881  u
+ 1882  ls
+ 1883  tar -zxvf ghc-7.6.3-x86_64-unknown-linux.tar.bz2
+ 1884  tar -xvf ghc-7.6.3-x86_64-unknown-linux.tar.bz2
+ 1885  ll
+ 1886  cd ghc-7.6.3
+ 1887  ls
+ 1888  less README
+ 1889  ghci
+ 1890  ls
+ 1891  sudo make install
+ 1892  ./configure
+ 1893  u
+ 1894  ls
+ 1895  cd ghc-7.6.3
+ 1896  ls
+ 1897  sudo ./install-sh
+ 1898  v INSTALL
+ 1899  ./configure /usr/local/
+ 1900  sudo apt-get install libgmp-dev
+ 1901  sudo apt-get install libgmp3-dev
+ 1902  ./configure /usr/local/
+ 1903  ls
+ 1904  c
+ 1905  ./configure
+ 1906  u
+ 1907  ls
+ 1908  rm -rf ghc-7.6.3
+ 1909  sudo apt-get install dtrx
+ 1910  c
+ 1911  dtrx ghc-7.6.3-x86_64-unknown-linux.tar.bz2
+ 1912  ls
+ 1913  cd ghc-7.6.3-x86_64-unknown-linux
+ 1914  ls
+ 1915  c
+ 1916  ls
+ 1917  v INSTALL
+ 1918  ./configure
+ 1919  sudo apt-get install libgmp3-dev
+ 1920  sudo apt-get autoremove
+ 1921  c
+ 1922  ls
+ 1923  cd software/ghc-7.6.3-x86_64-unknown-linux
+ 1924  ls
+ 1925  dpkg -L libgmp3-dev
+ 1926  dpkg -L libgmp3
+ 1927  sudo apt-get install libgmp3c2
+ 1928  dpkg -L libgmp3c2
+ 1929  ./configure 
+ 1930  c
+ 1931  ls /usr/local
+ 1932  ls /usr/local/bin
+ 1933  ls /usr/local/lib
+ 1934  sudo make install
+ 1935  u
+ 1936  ls
+ 1937  cd haskell-platform-2013.2.0.0
+ 1938  ls
+ 1939  v README
+ 1940  ./configure
+ 1941  sudo make install
+ 1942  which ghci
+ 1943  vi .zshrc
+ 1944  ghci
+ 1945  /usr/bin/ghci
+ 1946  ghci
+ 1947  ghci a.hs
+ 1948  rm a.hs
+ 1949  cd github/kaidee/haskellGem
+ 1950  ls ../src
+ 1951  c
+ 1952  ls
+ 1953  c
+ 1954  ls
+ 1955  v zip.hs
+ 1956  ghci zip.hs
+ 1957  ls 
+ 1958  :e sayMe.hs
+ 1959  ghci
+ 1960* cabal update
+ 1961* which cabal 
+ 1962* which cabal
+ 1963* cabal update
+ 1964  ghci
+ 1965  ls
+ 1966  v bmi.hs
+ 1967  ghci
+ 1968  ls
+ 1969  cat *.hs
+ 1970  ghci
+ 1971  sub
+ 1972  ls
+ 1973  ghci
+ 1974  which sublime-text
+ 1975  whereis sublime-text
+ 1976  ll /usr/bin/
