@@ -7,7 +7,7 @@ bool GuideLayer::init()
     {
         return false;
     }
-   setTouchEnabled(true);
+    setTouchEnabled(true);
     m_pMsgDictionary = readDictionaryFromPlist("guide_msg.plist", "");
     CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     

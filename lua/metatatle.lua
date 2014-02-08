@@ -18,12 +18,13 @@ d = a + b
 -- for i,v in ipairs(d) do
 -- 	print(i,v)
 -- end
--- print getmetatable(a)
+print (getmetatable(a))
 -- for i,v in ipairs(dd) do
 -- 	print(i,v)
 -- end
 
 list = {}
+-- 为避免污染命名空间,我们 将其放在 list 内部。
 list.mt = {}
 function list.new( ls )
 	local l_ls = {}
@@ -61,3 +62,4 @@ for i, v in ipairs(ls3) do
 	print(i, v)
 end
 
+print(getmetatable(ls3))
