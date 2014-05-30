@@ -1,0 +1,44 @@
+for n in pairs(_G) do print(n) end
+
+-- ┌─[kaidee@kaidee-dev] - [~/github/kaidee/lua] - [二  5 27, 03:09]
+-- └─[$] <git:(master*)> lua environment.lua
+-- string
+-- xpcall
+-- package
+-- tostring
+-- print
+-- os
+-- unpack
+-- require
+-- getfenv
+-- setmetatable
+-- next
+-- assert
+-- tonumber
+-- io
+-- rawequal
+-- collectgarbage
+-- arg
+-- getmetatable
+-- module
+-- rawset
+-- math
+-- debug
+-- pcall
+-- table
+-- newproxy
+-- type
+-- coroutine
+-- _G
+-- select
+-- gcinfo
+-- pairs
+-- rawget
+-- loadstring
+-- ipairs
+-- _VERSION
+-- dofile
+-- setfenv
+-- load
+-- error
+-- loadfile

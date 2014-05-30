@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8DBB74A8-A3A7-491E-A865-502D19A018D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cppTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B29E4161-91A9-494A-9E56-71E789FBBEA1</key>
+		<string>https://github.com/kaidee/kaidee.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cpp/cppTest/cppTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B29E4161-91A9-494A-9E56-71E789FBBEA1</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kaidee/kaidee.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B29E4161-91A9-494A-9E56-71E789FBBEA1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B29E4161-91A9-494A-9E56-71E789FBBEA1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kaidee</string>
+		</dict>
+	</array>
+</dict>
+</plist>
