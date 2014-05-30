@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3E48DCC1938B9E400D1C412"
-               BuildableName = "cppTest.app"
+               BlueprintIdentifier = "E3E48E071938BA8300D1C412"
+               BuildableName = "cppTest"
                BlueprintName = "cppTest"
                ReferencedContainer = "container:cppTest.xcodeproj">
             </BuildableReference>
@@ -28,22 +28,12 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3E48DE71938B9E400D1C412"
-               BuildableName = "cppTestTests.xctest"
-               BlueprintName = "cppTestTests"
-               ReferencedContainer = "container:cppTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3E48DCC1938B9E400D1C412"
-            BuildableName = "cppTest.app"
+            BlueprintIdentifier = "E3E48E071938BA8300D1C412"
+            BuildableName = "cppTest"
             BlueprintName = "cppTest"
             ReferencedContainer = "container:cppTest.xcodeproj">
          </BuildableReference>
@@ -61,8 +51,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3E48DCC1938B9E400D1C412"
-            BuildableName = "cppTest.app"
+            BlueprintIdentifier = "E3E48E071938BA8300D1C412"
+            BuildableName = "cppTest"
             BlueprintName = "cppTest"
             ReferencedContainer = "container:cppTest.xcodeproj">
          </BuildableReference>
@@ -79,8 +69,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3E48DCC1938B9E400D1C412"
-            BuildableName = "cppTest.app"
+            BlueprintIdentifier = "E3E48E071938BA8300D1C412"
+            BuildableName = "cppTest"
             BlueprintName = "cppTest"
             ReferencedContainer = "container:cppTest.xcodeproj">
          </BuildableReference>
