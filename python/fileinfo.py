@@ -29,15 +29,15 @@ import os
 import sys
 from UserDict import UserDict
 
-def stripnulls(data):
-    "strip whitespace and nulls"
-    return data.replace("\00", " ").strip()
-
 class FileInfo(UserDict):
     "store file metadata"
     def __init__(self, filename=None):
         UserDict.__init__(self)
         self["name"] = filename
+
+def stripnulls(data):
+    "strip whitespace and nulls"
+    return data.replace("\00", " ").strip()
     
 class MP3FileInfo(FileInfo):
     "store ID3v1.0 MP3 tags"

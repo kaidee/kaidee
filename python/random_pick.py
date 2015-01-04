@@ -21,9 +21,10 @@ probabilities = [0.2,0.1,0.6,0.1]
 
 # print random_pick(some_list,probabilities)
 
-# for x in xrange(1,30):
-    # print random_pick(some_list,probabilities),
+for x in xrange(1,30):
+    print random_pick(some_list,probabilities),
     
+print '------------------------'
 
 #根据权重来获取 核心在于权重乘以 就相当于次数
 

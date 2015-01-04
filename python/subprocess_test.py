@@ -9,11 +9,12 @@ sleep_time = 2
 
 def main():
 	web = 'qq.com'
-	cmd = ['ls', '-l']
+	# cmd = ['ls', '-l']
+	cmd = ['dir']
 	# Popen(cmd)
 	out = subprocess.check_call(cmd, stdout=subprocess.PIPE)
 	print
-	# print out
+	print out
 	# time.sleep(sleep_time)
 	# p = Popen(["ls", "-l"], stdout=PIPE) # 重定向输出
 	# print out.stdout.read()

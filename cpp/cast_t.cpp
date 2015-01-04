@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
 	int d = static_cast<int>(Milkshakes.size());
 	cout<<"size: "<<d<<endl;
-	printf("%d\n", d);
+	// printf("%d\n", d);
 
 	int dd = int(Milkshakes.size());
 	cout << dd <<endl;

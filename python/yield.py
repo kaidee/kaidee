@@ -6,7 +6,7 @@ def gensquares(n):
 # 	print i, ': ',
 
 x = gensquares(4)
-# print next(x)
+print next(x)
 print x.next()
 
 def gen():

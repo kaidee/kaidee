@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// queue, priority_queue, stack
+
 int main(int argc, char const *argv[])
 {
 	
