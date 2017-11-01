@@ -1,4 +1,4 @@
-﻿#include "XScrollView.h"
+#include "XScrollView.h"
 #include "actions/CCActionInterval.h"
 #include "actions/CCActionTween.h"
 #include "actions/CCActionInstant.h"
@@ -731,10 +731,10 @@ bool XScrollView::OnTouchMove(CCTouch* touch, CCEvent* event)
 				maxInset = m_fMaxInset;
 				minInset = m_fMinInset;
 				//check to see if offset lies within the inset bounds
-				newX     = MIN(m_pContainer->getPosition().x, maxInset.x);
-				newX     = MAX(newX, minInset.x);
-				newY     = MIN(m_pContainer->getPosition().y, maxInset.y);
-				newY     = MAX(newY, minInset.y);
+				newX = MIN(m_pContainer->getPosition().x, maxInset.x);
+				newX = MAX(newX, minInset.x);
+				newY = MIN(m_pContainer->getPosition().y, maxInset.y);
+				newY = MAX(newY, minInset.y);
 				if(m_eDirection == en_Scrollview_Direction_H)
 				{
 					newY = 0;

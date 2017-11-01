@@ -4,30 +4,33 @@
 
 # 统计代码行数
 
-import os,fnmatch
+import os
+import fnmatch
 import time
 
 # 需要统计的根路径
 input_dir = '.'
 # 文件后缀类型，以';'分隔
 # file_type = '*.*'
-file_type = '*.h;*.cpp;*.lua;*.py;*.c;*.cc;'
+file_type = '*.h;*.cpp;*.lua;*.py;*.c;*.cc;*.cs;'
 # 忽略路径
-ignor_dir = '.git'
+ignor_dir = '.\.git'
 
 def main():
     line_count = 0
+    file_count = 0
     start_time = time.time()
     for file in all_files(input_dir, file_type, single_level=False, yield_folders=True):
-        if ignor_dir in file:
+        if file.startswith(ignor_dir):
             print file
             continue
         line_count += getLineCount(file)
+        file_count += 1
 
-    print
-    print "This dir has ", line_count, "line codes"
-    print time.time() - start_time ,"seconds costed"
-
+    print os.path.abspath(input_dir)
+    print "has ", file_count, "files"
+    print "has ", line_count, "line codes"
+    print time.time() - start_time, "seconds costed"
 
 def getLineCount(filename):
     with open(filename, "r") as f:
@@ -40,19 +43,20 @@ def block(file, size=65536):
             break
         yield nb
 
-def all_files(root,patterns='*',single_level=False,yield_folders=False):
+def all_files(root, patterns='*', single_level=False, yield_folders=False):
     patterns = patterns.split(';')
-    for path,subdirs,files in os.walk(root):
+    for path, subdirs, files in os.walk(root):
         if yield_folders:
             files.extend(subdirs)
         files.sort()
         for name in files:
             for pattern in patterns:
-                if fnmatch.fnmatch(name,pattern):
-                    yield os.path.join(path,name)
+                if fnmatch.fnmatch(name, pattern):
+                    yield os.path.join(path, name)
                     break
         if single_level:
             break
- 
+
+
 if __name__ == '__main__':
     main()

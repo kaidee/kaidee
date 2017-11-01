@@ -34,4 +34,4 @@ local t = {2,3,4}
 -- xx = get()
 -- print("xx: ",xx)
 
-print(table.find(t, 3))
+print(table.find(3))
